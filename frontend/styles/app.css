@@ -2,12 +2,39 @@
     width: 90vw;
     height: 450px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 40px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     border-radius: 50px;
+}
+
+.text-area {
+    background-color: var(--blue-ice);
+    margin: auto;
+    margin-top: 25px;
+    width: 90vw;
+    height: 300px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.075) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 50px;
+}
+
+h2 {
+    color: white;
+    text-shadow: 1px 4px 7px rgba(0, 0, 0, 0.349);
+}
+
+p {
+    color: white;
+    text-shadow: 1px 4px 7px rgba(0, 0, 0, 0.349);
+    text-align: center;
+    margin-top: 10px;
 }
 
 label {
@@ -100,35 +127,25 @@ button:hover {
     background: #366d85;
 }
 
-.text-area {
-    background-color: var(--blue-ice);
-    margin: auto;
-    margin-top: 50px;
-    width: 90vw;
-    height: 300px;
-    border-radius: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-shadow: rgba(0, 0, 0, 0.075) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    border-radius: 50px;
-}
-
-h2 {
-    color: white;
-}
-
-p {
-    color: white;
-}
-
 footer {
     background-color: var(--blue-ice);
-    height: 200px;
-    margin-top: 200px;
+    height: 240px;
+    margin-top: 250px;
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
+}
+
+.title-footer {
+    color: var(--blue-details);
+    text-shadow: 1px 4px 7px rgba(0, 0, 0, 0.349);
+    font-size: 1.1em;
+}
+
+.footer-itens {
+    text-align: center;
+    font-size: 1em;
+    line-height: 1.1em;
 }
 
 
