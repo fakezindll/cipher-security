@@ -22,7 +22,7 @@ encryptForm.addEventListener("submit", async (e) => {
   }
 
   try {
-    const response = await fetch("http://127.0.0.1:8000/encrypt", {
+    const response = await fetch("https://cipher-security.onrender.com/encrypt", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ text: message, key: key }),
@@ -59,7 +59,7 @@ decryptForm.addEventListener("submit", async (e) => {
   }
 
   try {
-    const response = await fetch("http://127.0.0.1:8000/decrypt", {
+    const response = await fetch("https://cipher-security.onrender.com/decrypt", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ token: token, key: key }),
